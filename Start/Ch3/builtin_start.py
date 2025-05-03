@@ -7,19 +7,30 @@ mynumbers = [1,3,5,6,9,12,14,17,20,30]
 
 # the len() function calculates the length of a sequence
 
+length = len(mynumbers)
+print(length)
 
 # the max() and min() functions will find the largest and smallest value in a sequence
 
+print(max(mystring))
+print(min(mynumbers))
 
 # the str() function will return a string version of an object
 prefix = "result: "
 result = 5
 
+print(prefix + str(5))
+
 
 # range(start, stop, step) will create a range of numbers 
 # You can use ranges along with loops 
+
+for i in range(1,5, 2):
+  print(i)
 
 
 # the print function itself is pretty flexible - you can embed variables directly in it
 greeting = "Hello!"
 count = 10
+
+print(f"{greeting} the count is {count}")
